@@ -1,4 +1,5 @@
 using FluentAssertions;
+using SuperMarioKata.MarioZustände;
 
 namespace SuperMarioKata.Tests;
 
@@ -8,22 +9,22 @@ public class Iteration1Tests
     public void SuperMario_Sollte_Bei_Start_klein_sein()
     {
         // Arrange
-        var mario = new SuperMario();
+        var mario = new SuperMarioGame();
 
         // Act
         var kleinerMario = mario.Start();
 
         // Assert
-        kleinerMario.Should().Be("Kleiner Super Mario");
+        kleinerMario.Should().BeOfType<KleinerSuperMario>();
     }
 
     [Fact]
-    public void SuperMario_Sollte_Bei_Treffer_Tot_Sein()
+    public void KleinerSuperMario_Sollte_Bei_Treffer_Tot_Sein()
     {
-        var mario = new SuperMario();
+        var mario = new KleinerSuperMario();
 
         var superMarioWirdGetroffen = mario.WirdGetroffen();
 
-        superMarioWirdGetroffen.Should().Be("Toter Super Mario");
+        superMarioWirdGetroffen.Should().BeOfType<ToterSuperMario>();
     }
 }

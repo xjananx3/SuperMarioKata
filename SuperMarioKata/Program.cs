@@ -2,8 +2,8 @@
 
 using SuperMarioKata;
 
-Console.WriteLine("Super Mario");
+Console.WriteLine("Super Mario Game");
 
-var mario = new SuperMario();
+var mario = new SuperMarioGame();
 
 mario.Start();
