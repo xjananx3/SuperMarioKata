@@ -4,6 +4,7 @@ namespace SuperMarioKata.MarioZustände;
 
 public class ToterSuperMario : ISuperMario
 {
+    public int AnzahlLeben { get; }
     public ToterSuperMario()
     {
         

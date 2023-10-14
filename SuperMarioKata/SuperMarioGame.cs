@@ -5,13 +5,14 @@ namespace SuperMarioKata;
 
 public class SuperMarioGame
 {
+    
     public SuperMarioGame()
     {
         
     }
     public ISuperMario Start()
     {
-        return new KleinerSuperMario();
+        return new KleinerSuperMario(3);
     }
 
     

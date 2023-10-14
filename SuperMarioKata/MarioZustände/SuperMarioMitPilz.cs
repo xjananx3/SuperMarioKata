@@ -4,14 +4,16 @@ namespace SuperMarioKata.MarioZustände;
 
 public class SuperMarioMitPilz : ISuperMario
 {
-    public SuperMarioMitPilz()
+    public int AnzahlLeben { get; }
+    
+    public SuperMarioMitPilz(int anzahlLeben)
     {
-        
+        AnzahlLeben = anzahlLeben;
     }
 
     public ISuperMario WirdGetroffen()
     {
-        return new KleinerSuperMario();
+        return new KleinerSuperMario(AnzahlLeben);
     }
 
     public ISuperMario FindetPilz()

@@ -21,7 +21,7 @@ public class Iteration1Tests
     [Fact]
     public void KleinerSuperMario_Sollte_Bei_Treffer_Tot_Sein()
     {
-        var mario = new KleinerSuperMario();
+        var mario = new KleinerSuperMario(0);
 
         var superMarioWirdGetroffen = mario.WirdGetroffen();
 

@@ -9,7 +9,7 @@ public class Iteration2Tests
     public void KleinerSuperMario_Sollte_Bei_Pilzfund_SuperMarioMitPilz_Sein()
     {
         // Arrange
-        var kleinerMario = new KleinerSuperMario();
+        var kleinerMario = new KleinerSuperMario(2);
         
         // Act
         var kleinerMarioFindetPilz = kleinerMario.FindetPilz();
@@ -21,7 +21,7 @@ public class Iteration2Tests
     [Fact]
     public void SuperMarioMitPilz_Sollte_Bei_Pilzfund_SuperMarioMitPilz_Bleiben()
     {
-        var superMarioMitPilz = new SuperMarioMitPilz();
+        var superMarioMitPilz = new SuperMarioMitPilz(3);
 
         var superMarioMitPilzfindetPilz = superMarioMitPilz.FindetPilz();
 
@@ -31,7 +31,7 @@ public class Iteration2Tests
     [Fact]
     public void SuperMarioMitPilz_Sollte_Bei_Treffer_KleinerSuperMario_Sein()
     {
-        var superMarioMitPilz = new SuperMarioMitPilz();
+        var superMarioMitPilz = new SuperMarioMitPilz(2);
 
         var superMarioMitPilzWirdGetroffen = superMarioMitPilz.WirdGetroffen();
 
