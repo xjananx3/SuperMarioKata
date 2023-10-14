@@ -2,24 +2,24 @@ using SuperMarioKata.Interfaces;
 
 namespace SuperMarioKata.MarioZustände;
 
-public class ToterSuperMario : ISuperMario
+public class SuperMarioMitFeuerblume : ISuperMario
 {
     public int AnzahlLeben { get; }
-    public ToterSuperMario()
+    public SuperMarioMitFeuerblume(int anzahlLeben)
     {
-        
+        AnzahlLeben = anzahlLeben;
     }
-
+    
     public ISuperMario WirdGetroffen()
     {
-        return this;
+        return new SuperMarioMitPilz(AnzahlLeben);
     }
 
     public ISuperMario FindetLeben()
     {
         var neueAnzahlLeben = AnzahlLeben + 1;
         
-        return new KleinerSuperMario(neueAnzahlLeben);
+        return new SuperMarioMitFeuerblume(neueAnzahlLeben);
     }
 
     public ISuperMario FindetPilz()

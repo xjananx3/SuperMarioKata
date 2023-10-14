@@ -32,4 +32,9 @@ public class KleinerSuperMario : ISuperMario
     {
         return new SuperMarioMitPilz(AnzahlLeben);
     }
+
+    public ISuperMario FindetFeuerblume()
+    {
+        return new SuperMarioMitFeuerblume(AnzahlLeben);
+    }
 }

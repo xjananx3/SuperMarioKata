@@ -6,5 +6,6 @@ public interface ISuperMario
     ISuperMario WirdGetroffen();
     ISuperMario FindetLeben();
     ISuperMario FindetPilz();
+    ISuperMario FindetFeuerblume();
 
 }

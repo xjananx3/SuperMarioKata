@@ -27,4 +27,9 @@ public class SuperMarioMitPilz : ISuperMario
     {
         return this;
     }
+
+    public ISuperMario FindetFeuerblume()
+    {
+        return new SuperMarioMitFeuerblume(AnzahlLeben);
+    }
 }
