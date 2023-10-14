@@ -16,6 +16,13 @@ public class SuperMarioMitPilz : ISuperMario
         return new KleinerSuperMario(AnzahlLeben);
     }
 
+    public ISuperMario FindetLeben()
+    {
+        var neueAnzahlLeben = AnzahlLeben + 1;
+        
+        return new SuperMarioMitPilz(neueAnzahlLeben);
+    }
+
     public ISuperMario FindetPilz()
     {
         return this;

@@ -21,6 +21,13 @@ public class KleinerSuperMario : ISuperMario
         return new ToterSuperMario();
     }
 
+    public ISuperMario FindetLeben()
+    {
+        var neueAnzahlLeben = AnzahlLeben + 1;
+        
+        return new KleinerSuperMario(neueAnzahlLeben);
+    }
+
     public ISuperMario FindetPilz()
     {
         return new SuperMarioMitPilz(AnzahlLeben);
