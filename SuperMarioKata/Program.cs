@@ -1,3 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
+using SuperMarioKata;
+
+Console.WriteLine("Super Mario");
+
+var mario = new SuperMario();
+
+mario.Start();
