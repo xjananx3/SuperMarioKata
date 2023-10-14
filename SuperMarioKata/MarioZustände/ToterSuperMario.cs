@@ -31,4 +31,9 @@ public class ToterSuperMario : ISuperMario
     {
         return this;
     }
+
+    public ISuperMario FindetEisblume()
+    {
+        return this;
+    }
 }

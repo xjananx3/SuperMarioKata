@@ -31,4 +31,9 @@ public class SuperMarioMitFeuerblume : ISuperMario
     {
         return this;
     }
+
+    public ISuperMario FindetEisblume()
+    {
+        return new SuperMarioMitEisblume(AnzahlLeben);
+    }
 }

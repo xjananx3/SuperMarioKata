@@ -2,25 +2,25 @@ using SuperMarioKata.Interfaces;
 
 namespace SuperMarioKata.MarioZustände;
 
-public class SuperMarioMitPilz : ISuperMario
+public class SuperMarioMitEisblume : ISuperMario
 {
     public int AnzahlLeben { get; }
-    
-    public SuperMarioMitPilz(int anzahlLeben)
+
+    public SuperMarioMitEisblume(int anzahlLeben)
     {
         AnzahlLeben = anzahlLeben;
     }
-
+    
     public ISuperMario WirdGetroffen()
     {
-        return new KleinerSuperMario(AnzahlLeben);
+        return new SuperMarioMitPilz(AnzahlLeben);
     }
 
     public ISuperMario FindetLeben()
     {
         var neueAnzahlLeben = AnzahlLeben + 1;
         
-        return new SuperMarioMitPilz(neueAnzahlLeben);
+        return new SuperMarioMitEisblume(neueAnzahlLeben);
     }
 
     public ISuperMario FindetPilz()
@@ -35,6 +35,6 @@ public class SuperMarioMitPilz : ISuperMario
 
     public ISuperMario FindetEisblume()
     {
-        return new SuperMarioMitEisblume(AnzahlLeben);
+        return this;
     }
 }
