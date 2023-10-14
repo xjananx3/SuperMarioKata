@@ -10,4 +10,9 @@ public class SuperMario
     {
         return "Kleiner Super Mario";
     }
+
+    public string WirdGetroffen()
+    {
+        return "Toter Super Mario";
+    }
 }
