@@ -1,0 +1,15 @@
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/bin/Debug/net7.0/SuperMarioKata
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/bin/Debug/net7.0/SuperMarioKata.deps.json
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/bin/Debug/net7.0/SuperMarioKata.runtimeconfig.json
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/bin/Debug/net7.0/SuperMarioKata.dll
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/bin/Debug/net7.0/SuperMarioKata.pdb
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/obj/Debug/net7.0/SuperMarioKata.csproj.AssemblyReference.cache
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/obj/Debug/net7.0/SuperMarioKata.GeneratedMSBuildEditorConfig.editorconfig
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/obj/Debug/net7.0/SuperMarioKata.AssemblyInfoInputs.cache
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/obj/Debug/net7.0/SuperMarioKata.AssemblyInfo.cs
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/obj/Debug/net7.0/SuperMarioKata.csproj.CoreCompileInputs.cache
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/obj/Debug/net7.0/SuperMarioKata.dll
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/obj/Debug/net7.0/refint/SuperMarioKata.dll
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/obj/Debug/net7.0/SuperMarioKata.pdb
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/obj/Debug/net7.0/SuperMarioKata.genruntimeconfig.cache
+/home/jack/RiderProjects/SuperMarioKata/SuperMarioKata/obj/Debug/net7.0/ref/SuperMarioKata.dll
