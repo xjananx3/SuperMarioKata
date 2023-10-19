@@ -38,4 +38,4 @@ Hier stelle ich meine Lösung für das sagenumwobene SuperMarioKata von Uli Armb
 -	Wenn Super Mario mit Eisblume einen Pilz findet, behält er seine Eisblume.
 -	Wenn Super Mario mit Eisblume eine Feuerblume findet, wechselt er zur Feuerblume (vice versa).
 
-Es gibt noch weiter Iterationen, die ich nach und nach implementieren werden.
+Es gibt noch weitere Iterationen, die ich nach und nach implementieren werden.
